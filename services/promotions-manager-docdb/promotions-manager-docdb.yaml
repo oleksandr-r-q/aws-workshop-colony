@@ -2,12 +2,12 @@ spec_version: 1
 kind: TerraForm
 
 inputs:
-  - REGION: us-east-1
+  - REGION: us-west-2
   - ROLE_ARN: PowerUserAccess
   - ADD_ADMIN_USER: true
   - USERNAME: 
   - PASSWORD:
-  - SANDBOX_ID
+  - SANDBOX_ID:
 
 module:
   source: git::https://github.com/QualiSystemsLab/aws-workshop-colony.git//terraform/aws-document-db
